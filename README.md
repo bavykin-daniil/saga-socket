@@ -94,3 +94,6 @@ The tickers we use:
 3. Modify content of the folder `server` - if you want to complete bonus tasks
 4. Commit and push your code to your repository
 5. Send us link to your repository
+
+## Additional tasks
+1. Has been added additional visual effects to highlight positive or negative changes in the prices
