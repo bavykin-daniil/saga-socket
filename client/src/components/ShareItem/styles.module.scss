@@ -1,0 +1,72 @@
+.share {
+  display: grid;
+  grid-template-columns: 100px 100px 1fr 90px 60px;
+  grid-column-gap: 10px;
+  align-items: center;
+  padding: 0 5px;
+  height: 100%;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(86, 86, 86, 0.33);
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: rgba(86, 86, 86, 0.07);
+  }
+}
+
+.name {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.exchange {
+  font-weight: 600;
+  color: #626262;
+}
+
+.price {
+  padding: 0 20px 0 0;
+  font-weight: 800;
+  text-align: right;
+}
+
+.change,
+.change_percent {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  align-items: center;
+  font-weight: 800;
+
+  svg {
+    height: 20px;
+    width: 100%;
+  }
+}
+
+.change {
+  &.decrease {
+    color: rgba(232, 62, 62, 0.70);
+  }
+
+  &.raise {
+    color: rgba(0, 128, 41, 0.60);
+  }
+}
+
+.change_percent {
+  &.raise,
+  &.decrease {
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  &.decrease {
+    background-color: rgba(232, 62, 62, 0.70);
+  }
+
+  &.raise {
+    background-color: rgba(0, 128, 41, 0.60);
+  }
+}

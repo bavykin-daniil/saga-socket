@@ -1,0 +1,9 @@
+.page {
+  display: grid;
+  height: 100%;
+
+  &.home {
+    align-content: center;
+    justify-items: center;
+  }
+}

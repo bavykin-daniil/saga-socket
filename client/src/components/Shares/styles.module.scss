@@ -1,0 +1,13 @@
+.shares {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 15px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.title {
+  font-size: 16px;
+  color: #565656;
+  font-weight: 700;
+}
